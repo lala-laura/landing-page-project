@@ -10,9 +10,14 @@ body{
     color: #F9FAF8;
   }
 
+  .hero, .random-info,  .call-to-action {
+    margin: auto 150px;
+    min-height: 200px;
+  }
+
 nav{
 display: flex;
-margin: auto 100px;
+margin: auto 150px;
 }
 
 .nav-links{
@@ -36,10 +41,12 @@ a:visited{
 
 .hero{
     display: flex;
-}
+  }
 
 .hero-left{
+    padding-right: 30px;
     flex-direction: column;
+
 }
  .hero-h1{
     font-size: 48px;
@@ -52,9 +59,10 @@ a:visited{
    }
 
    .water-img{
-    max-width:450px;
+    max-width:350px;
     height: auto;
-    border: solid black 1;
+    margin: auto;
+    padding-bottom: 40px;
    }
    .hero-text, .nav-links{
     font-size: 18px;
@@ -62,16 +70,12 @@ a:visited{
    }
 .section, .hero{
     flex: 1;
-    margin: auto 100px;
-    border: solid lightgray .025px; /*USING FOR TESTING ONLY*/
+
+   /*border: dotted rgb(211, 216, 230) .02px;  *//*USING FOR TESTING ONLY*/
 }
 
 .random-info{
     display: flex;
-    text-align: center;
-}
-
-.info-header-text{
     text-align: center;
 }
 
@@ -88,23 +92,60 @@ a:visited{
     background-color: #cdd8ea;
 }
 
-
 .quote{
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    padding: 20px 100px;
+    text-align: center;
+    min-height: 200px;
+}
+.cite{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    margin-left: auto;
 }
 
+.call-to-action{
+    display: flex;
+      justify-content: center;
+    align-items: center;
+}
 .sign-up-button{
     background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: 700;
+    border: solid #E5E7EB; 1px;
+    border-radius: 10%;
+    padding: 5px 20px;
+
+}
+.sign-up-box{
+    display: flex;
+
+   width: 100%;
+    height:100px;
+    background-color: #3882F6;
+    padding: 20px;
+    color:#E5E7EB;
+    align-items: center;
+
+}
+ .sign-up-top {
+ margin: 8px 0px;
+ border: solid #3882F6 1px;
 }
 
 .info-header-text{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
 }
 
 footer{
