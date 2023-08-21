@@ -30,8 +30,16 @@ a{
 }
 
 /* This is so the browser stops showing it in the default visited color*/
-nav :visited{
+a:visited{
     color:#E5E7EB
+}
+
+.hero{
+    display: flex;
+}
+
+.hero-left{
+    flex-direction: column;
 }
  .hero-h1{
     font-size: 48px;
@@ -57,6 +65,30 @@ nav :visited{
     padding-left: 150px;
     border: solid lightgray .025px; /*USING FOR TESTING ONLY*/
 }
+
+.random-info{
+    display: flex;
+    text-align: center;
+}
+
+.info-header-text{
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid rgb(65, 65, 226) 1.5px;
+    border-radius: 10%;
+    background-color: #cdd8ea;
+}
+
+
 .quote{
     background-color: #E5E7EB;
     color: #1F2937;
