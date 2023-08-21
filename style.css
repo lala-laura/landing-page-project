@@ -11,8 +11,8 @@ body{
   }
 
 nav{
-    background-color: #31203b; /*USING FOR TESTING ONLY*/
 display: flex;
+padding-left: 150px;
 }
 
 .nav-links{
@@ -41,16 +41,16 @@ nav :visited{
    .hero-logo{
     font-size: 24px;
     color: #F9FAF8;
-    margin:auto;
+
    }
 
    .hero-text, .nav-links{
     font-size: 18px;
     color: #E5E7EB
    }
-.section{
-    margin-left:100px;
-    padding: 20px;
+.section, .hero{
+
+    padding-left: 150px;
     border: solid lightgray .025px; /*USING FOR TESTING ONLY*/
 }
 .quote{
