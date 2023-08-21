@@ -41,9 +41,13 @@ nav :visited{
    .hero-logo{
     font-size: 24px;
     color: #F9FAF8;
-
    }
 
+   .water-img{
+    max-width:450px;
+    height: auto;
+    border: solid black 1;
+   }
    .hero-text, .nav-links{
     font-size: 18px;
     color: #E5E7EB
