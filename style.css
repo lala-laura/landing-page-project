@@ -8,24 +8,31 @@ body{
 .header, footer{
     background-color: #1F2937;
     color: #F9FAF8;
-    }
-
-.header{
-
-}
+  }
 
 nav{
-    background-color: #4b3e53; /*USING FOR TESTING ONLY*/
+    background-color: #31203b; /*USING FOR TESTING ONLY*/
 display: flex;
 }
 
 .nav-links{
    display: flex;
    margin: auto;
-   lin
-
+  list-style: none;
 }
 
+.nav-links li{
+    padding: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* This is so the browser stops showing it in the default visited color*/
+nav :visited{
+    color:#E5E7EB
+}
  .hero-h1{
     font-size: 48px;
     font-weight: 900;
@@ -34,13 +41,18 @@ display: flex;
    .hero-logo{
     font-size: 24px;
     color: #F9FAF8;
+    margin:auto;
    }
 
    .hero-text, .nav-links{
     font-size: 18px;
     color: #E5E7EB
    }
-
+.section{
+    margin-left:100px;
+    padding: 20px;
+    border: solid lightgray .025px; /*USING FOR TESTING ONLY*/
+}
 .quote{
     background-color: #E5E7EB;
     color: #1F2937;
