@@ -15,9 +15,14 @@ body{
 }
 
 nav{
-    padding: 16px;
-    background-color: #52296c; /*USING FOR TESTING ONLY*/
+    background-color: #4b3e53; /*USING FOR TESTING ONLY*/
+display: flex;
+}
 
+.nav-links{
+   display: flex;
+   margin: auto;
+   lin
 
 }
 
